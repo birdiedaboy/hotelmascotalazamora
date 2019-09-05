@@ -107,24 +107,18 @@ body main article{
     justify-content: space-between;
     min-height: 80vh;
     background-color: #70BB98;
-    padding: 5%;
+    padding: 2.5%;
 }
 body main article:nth-child(odd){
-    display: flex;
-    align-items: center;
     flex-direction: row-reverse;
     background-color: #F8C778;
 }
 body main article img{
     width: 50%;
+    padding: 2.5%;
     
 }
-body main article img:nth-child(odd){
-    padding-left: 5%;
-}
-body main article img:nth-child(even) {
-    padding-right: 5%;
-}
+
 
 body main article section h1{
     font-family: 'Rubik', sans-serif;
@@ -140,5 +134,5 @@ body main article section{
     flex-direction: column;
     background-color: aqua;
     align-items: center;
-    box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.75); 
+    box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.75);
 }
