@@ -90,15 +90,20 @@ header nav a:hover {
     background-color: #80C5A6;
  }
 
-body div img{
-    width: 100%;
-    height: auto;
+body figure img{
+    width: 50%;
+    height: 50%;
         
 }
-body div {
+body figure {
     display: flex;
     justify-content: center;
-    max-height:100vh;
+    align-items: center;
+    min-height:100vh;
+    background-image: url(img/portada02.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
 body main article{
@@ -123,7 +128,8 @@ body main article img{
 body main article section h1{
     font-family: 'Rubik', sans-serif;
     font-size: 2em;
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
 }
 body main article section p{
     font-family: 'Karla', sans-serif;
@@ -132,7 +138,7 @@ body main article section p{
 body main article section{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0.5);
     align-items: center;
-    box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 }
