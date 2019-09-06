@@ -112,7 +112,7 @@ body main article{
     justify-content: space-between;
     min-height: 80vh;
     background-color: #70BB98;
-    padding: 5vw;
+    padding: 2.5vw;
 }
 body main article:nth-child(odd){
     flex-direction: row-reverse;
@@ -239,5 +239,9 @@ footer nav a svg{
     }
     body main article:nth-child(odd){
         flex-direction: column;
+    }
+    body main article img{
+        width: 100%
+            ;
     }
 }
