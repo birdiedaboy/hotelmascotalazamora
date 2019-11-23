@@ -223,3 +223,10 @@ footer nav a svg{
 .instasvg{
     width: 100%;
 }
+
+@media all and (max-width: 800px) {
+    body main article{
+          display: flex;
+          flex-direction: column !important;
+      }
+}
